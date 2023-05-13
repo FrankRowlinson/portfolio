@@ -1,17 +1,17 @@
 export const cameraSettings = {
-  fov: 90,
+  fov: 75,
   aspect: 2,
   near: 0.1,
   far: 5,
   start: {
-    X: 2,
+    X: 5,
     Y: 1,
     Z: 0,
   },
   end: {
-    X: -0.5,
+    X: 1,
     Y: 1,
-    Z: 0.8,
+    Z: -0.5,
   },
 }
 
@@ -22,6 +22,12 @@ export const geometryParams = {
 }
 
 export const lightParams = {
-  color: 0xffffff,
-  intensity: 1,
+  main: {
+    color: 0xebc0ae,
+    intensity: 1.4,
+  },
+  secondary: {
+    color: 0xe8d1a9,
+    intensity: 0.3,
+  },
 }
