@@ -1,6 +1,6 @@
 import { useRef, useEffect } from "react"
 import { initializeRenderer, moveCameraToScrollPercentage } from "./setup.3d"
-import "./Plane.scss"
+import "./styles/Plane.scss"
 
 export function Plane() {
   const ref = useRef<HTMLCanvasElement>(null)

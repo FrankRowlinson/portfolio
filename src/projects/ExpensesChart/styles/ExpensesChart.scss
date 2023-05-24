@@ -1,0 +1,6 @@
+@use "../../styles/colors";
+
+.container {
+  background: colors.$bg-color;
+  height: 100vh;
+}

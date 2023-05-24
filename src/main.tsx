@@ -2,7 +2,7 @@ import React from "react"
 import ReactDOM from "react-dom/client"
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
 import App from "./App"
-import { Plane } from "./projects"
+import { Plane, ExpensesChart } from "./projects"
 
 const router = createBrowserRouter([
   {
@@ -12,6 +12,10 @@ const router = createBrowserRouter([
       {
         path: "plane",
         element: <Plane />,
+      },
+      {
+        path: "spending",
+        element: <ExpensesChart />,
       },
     ],
   },
